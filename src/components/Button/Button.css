@@ -1,0 +1,61 @@
+.button-container {
+  width: 100%;
+  background: linear-gradient(45deg, rgba(91, 176, 255, 1) 0%, rgba(55, 106, 153, 1) 100%);
+  color: white;
+  font-family: var(--font-londrina);
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.45px;
+  border-radius: 100px;
+  cursor: not-allowed;
+}
+
+.button-container-inverted {
+  background: none !important;
+  color: rgb(133, 133, 133);
+  border: 1px solid rgb(80, 80, 80);
+}
+
+.button-container:hover {
+  transform: scale(0.975);
+}
+
+.button-container:hover p:nth-child(1) {
+  transform: rotate(-12deg) translateY(-30px);
+}
+.button-container:hover p:nth-child(2) {
+  transform: rotate(0) translateY(0);
+}
+
+.button-container span {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  pointer-events: none;
+}
+
+.button-container span p {
+  font-size: 0.875rem;
+  pointer-events: none;
+  will-change: transform;
+  transition: 0.5s cubic-bezier(0, 0, 0.2, 1);
+  font-family: var(--font-londrina);
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.45px;
+}
+
+.button-container span p:nth-child(2) {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(calc(100% + 20px)) rotate(12.5deg);
+}
+
+@media screen and (max-width: 678px) {
+  .button-container span p {
+    font-size: 0.9rem;
+  }
+}

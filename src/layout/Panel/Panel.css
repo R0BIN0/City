@@ -1,0 +1,32 @@
+.panel-section {
+  background: rgba(224, 230, 237, 1);
+  padding: 8rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.panel-section img {
+  width: 250px;
+  margin: 0 1rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.panel-section img:nth-child(1) {
+  object-position: -500px 0px;
+}
+.panel-section img:nth-child(2) {
+  object-position: -750px 0px;
+}
+.panel-section img:nth-child(3) {
+  object-position: -1000px 0px;
+}
+.panel-section img:nth-child(4) {
+  object-position: -1250px 0px;
+}
+.panel-section img:nth-child(5) {
+  object-position: -1500px 0px;
+}
