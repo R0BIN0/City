@@ -22,10 +22,10 @@ export const metadata: Metadata = {
   description: "Découvrez la magnifique ville de Rovaniemi en Laponie !",
   openGraph: {
     type: "website",
-    url: "",
+    url: "https://city-hazel-three.vercel.app/",
     locale: "en_US",
     title: "Rovaniemi",
-    images: "https://res.cloudinary.com/e-tech-test/image/upload/v1727459609/Capture_sorwlo.png",
+    images: "https://res.cloudinary.com/e-tech-test/image/upload/v1727460716/Capture_sorwlo.png",
     description: "Découvrez la magnifique ville de Rovaniemi en Laponie !",
     siteName: "Rovaniemi",
   },
